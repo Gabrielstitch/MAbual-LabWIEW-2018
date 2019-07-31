@@ -1,2 +1,2 @@
 # Manual de Practicas 
-##INTRODUCCION
+## Introduccion
