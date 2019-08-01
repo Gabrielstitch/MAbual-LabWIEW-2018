@@ -116,6 +116,14 @@ Una vez  teniendo este ejemplo, se editara quitando y agregando componentes, los
 
 <img src="25.png">
 
+## Practica 4- Sensor de Temperatura
+
+Para la elaboracion de esta practica  se utilizara un componente fisico, el cual sera un sensor de temperatura lm34 , el cual estara conectado a un circuito en la protoboard y a  su vez, este se conectara a la paca arduino mediante la pc, una vez teniendo el circuito fisico, se procede a cargar el firmware a la placa arduino realizando la misma operacin que en la practica anterior, utilizando la opcion MakerHub . Posteriormente, se procedera a realizar la interfaz en LabWIEW  la cual se comenzara por insertar un ciclo while  y dentro de ellos se realizara la conexion de componentes y de opreadores .
+Se colocara una opcion llamada Random Number (0-1) esta opcion nos dara valores al azar, posteriormente se insertara un operador aritmetico, en este caso sera una multiplicacion y se conectara una de las entradas con el Random Number(0-1) y en la otra entrada del operador se conectara  con un DBL constant numeric,. Posteriormente se insertara un  control numerico, el cual estara enlazado a  un operador de igualacion,  el cual realizara la funcion de encender un led, el cual estara conectado a la salida del operador de igualacion. En la salida del operador multiplicador se conectara un control de temperatura, el cual nos arrojara la temperatura que detecte el sensor fisico. Se insertara un temporizador para regular la velocidad en la qur toma la lectura el sensor y por ultimos se insertara un boton de stop , el cual estara conectado  al ciclo while para detener el proceso cuando se desel resultado final sera el siguiente:.
+
+<img src="26.png">
+
+
 
 
 
