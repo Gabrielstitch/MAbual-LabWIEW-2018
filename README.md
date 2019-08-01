@@ -112,7 +112,10 @@ Esta ventana nos indica que la carga de la programacion a la placa ha terminado,
 
 <img src=" 24.png">
 
-Una vez  teniendo este ejemplo, se editara quitando y agregando componentes, los cuales generaran una funcion distinta a ladel ejemplo, esta funcion tendra como finalidad hacer queel led del arduino parpadee y a su vez, el led de la interfaz haga la misma funcion, estando sincronizados  el led fisico con el de la interfaz, no obstante, se tiene que tener un puerto
+Una vez  teniendo este ejemplo, se editara quitando y agregando componentes, los cuales generaran una funcion distinta a ladel ejemplo, esta funcion tendra como finalidad hacer queel led del arduino parpadee y a su vez, el led de la interfaz haga la misma funcion, estando sincronizados  el led fisico con el de la interfaz, no obstante, se tiene que tener activo el puerto serial usb  en el que esta conectado el arduino. Una vez teniendo la interfaz modificada, qedara de esta manera para despues poder ejecutarla:
+
+<img src="25.png">
+
 
 
 
