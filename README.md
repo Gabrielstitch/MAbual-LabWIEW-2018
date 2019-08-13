@@ -269,6 +269,29 @@ Posteriormente, se continuara a ejectutar el programa y se corroborara que el ci
 
 Finalmente, se conectara un osciloscopio a nuestro circuito para observar el comportamiento de la señal que se esta trabajando, en este caso, nos tendra que dar una señal cuadrada o recta positiva.
 
+## PrCTICA 11-  Display de 7 segmentos.
+
+Para la realizacion de esta practica se utilizo un display de 7 segmentos el cual su cnfguracion sera de catodo comun.
+
+<img src="36.png">
+
+Como se muestra en la imagen, este display se alimentara o se conectara con GND, el cual sera tierra.
+Posteriormente, se procedera a realizar la interfaz  en LabWIEW.
+
+Se insertara nuestro correspondiente ciclo While, posteriormente, se insertaran los perifericos necesarios para poder realizar la comunicacion con arduino, en este caso, se sinertaran un periferico open, el cual se creara un control del mismo, este control nos peritira seleccionar el puerto COM en el que se ecneuntre conectado nuestro arduino. 
+
+Despues, se insertaran dos perifericos Digital Write, los acuales a ambos, se le cambiara la opcion de los canales, por defecto tiene la opcion de un solo canal, seleccionaremos la flecha que esta a un la do de la etiqueta y le daremos clic en N canals.
+
+Se insertara el periferico de saida o cierre y se conectara a su respectivo mensaje de eeror.
+
+En nuestro panel derecho, seleccioanremos la carpeta de Array, la cual nos mostrara una serie de elementos, seleccionaremos el elemento Constant Array y lo insertaremos dentro de nuestro ciclo.
+
+Daremos clic derecho sobre el mismo panel y seleccioanremos la carpeta de Boolean, posteriormente seleccioanremos el elemento de  true constant y lo insertaremos dentro del elemento Constant Array, esto nos dara un valor que simule una tabla de verdad, codigo binario la cual esa sera nuestro primer digito, solo pondremos en falso y verdadero las casillas correspondientes al numero que queramos pintar en nuestro display de 7 segmentos. Se realizara esta misma accion otras 8 veces, pintando la numeracion del 0 al 9.
+
+Se insertara un elemento nuevo, en este csaso insertaremos un Build Array, esto nos permtiiras conectar todos nuestros digitos en el mismo.
+
+
+
 
 
 
